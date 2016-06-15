@@ -12,6 +12,14 @@ JavaScript Logging Lab
 
 Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
+### Why test?
+
+In science, when we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+
+In programming, tests pick up on the discipline's computer science background. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
+
+On Learn, we use tests as teaching tools. Just like in a normal coding environment, we use tests to describe the program's behavior. Unlike in a normal coding environment, you, not we, are in charge of getting the tests to pass — that is, making the app behave like we expect it to.
+
 ### Structure
 
 The structure of this lab — where its files and folders are located — looks roughly like the following:
@@ -86,11 +94,11 @@ This line reads `index.js` (remember how we said we'd modify that?) and adds its
 
 To run the tests, simply type `learn test` in the Learn IDE. You should see something like
 
-![failures](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_lab_test_failures.png)
+![failures](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_logging_lab_all_failing.png)
 
 For the moment, all of the tests fail. Let's figure out how to get one of them passing! (The rest will be up to you.)
 
-Let's take the first one. The test description says, "index calls console.error()". So it sounds like, pretty straight-forwardly, like we should call `console.error()`.
+Let's take the first one. The test description says, "index calls console.error()". So it sounds like, pretty straight-forwardly, like we should _call_ `console.error()` somewhere in `index.js`. "Calling" a function means invoking it, causing it to act. We call functions with parentheses: `console.error` _is_ a function, but `console.error()` is a _call_ to the function.
 
 In `index.js`, add a call to `console.error()` — you can call it with anything you like (as long as the syntax is valid). We're going to go with
 
@@ -100,7 +108,7 @@ console.error("HALP!")
 
 Because it seems sufficiently dire.
 
-Anyway, let's run the tests again. In the Learn IDE's terminal, run 
+Anyway, let's run the tests again. In the Learn IDE's terminal, run
 
 ``` javascript
 learn test
@@ -108,9 +116,15 @@ learn test
 
 We should now see:
 
-![one passing](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_lab_test_one_passing.png)
+![one passing](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_logging_lab_one_passing.png)
 
 Nice! We got the first one to pass!
+
+## A note about spies
+
+You might often see errors like the ones above: `"Uncaught error: spy was not called"`. Spies are little bits of code that keep track of whether or not they were called. We use them to make sure that a function is called when we expect it to be called.
+
+We'll try to rewrite these error messages when possible to be more descriptive about what kinds of calls we expected; but know that sometimes, especially later on, we leave the errors intentionally ambiguous for you to work out.
 
 ## Your turn
 
