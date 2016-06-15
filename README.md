@@ -61,7 +61,7 @@ describe('index', () => {
 Then we have a few chunks like
 
 ``` javascript
-it('calls console.error()`, () => {
+it('calls console.error()', () => {
   // this is where the tests are!
 })
 ```
