@@ -14,7 +14,7 @@ Welcome to your first JavaScript lab! You'll notice a few new things in this les
 
 ### Why test?
 
-In science, when we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
 
 In programming, tests pick up on the discipline's computer science background. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
 
@@ -41,7 +41,17 @@ All labs will more or less have the same structure. (And READMEs, for that matte
 
 ### Code-along
 
-For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
+For now, open up `index.js` in your text editor. If you're using the Learn IDE, click the "Open" button on this lesson
+
+![learn open](https://curriculum-content.s3.amazonaws.com/skills-based-js/learn_open.png)
+
+your IDE should open up. You'll see a sidebar like this:
+
+![learn IDE sidebar](https://curriculum-content.s3.amazonaws.com/skills-based-js/learn_ide_sidebar.png)
+
+If you open up that "javascript-logging-lab..." folder, you'll see a list of files (along with a test/ directory). Click `index.js`, and it will open in the editor. 
+
+In `index.js`, you should see, well, nothing. We'll fix that soon.
 
 Now upon up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
 
