@@ -102,7 +102,7 @@ This line reads `index.js` (remember how we said we'd modify that?) and adds its
 
 ## Running the Tests
 
-To run the tests, simply type `learn test` in the Learn IDE. You should see something like
+To run the tests, simply type `learn test` in the terminal part of the Learn IDE. (The terminal is the part below where you've been coding.) You should see something like
 
 ![failures](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_logging_lab_all_failing.png)
 
