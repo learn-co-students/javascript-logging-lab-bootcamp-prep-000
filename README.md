@@ -49,7 +49,7 @@ your IDE should open up. You'll see a sidebar like this:
 
 ![learn IDE sidebar](https://curriculum-content.s3.amazonaws.com/skills-based-js/learn_ide_sidebar.png)
 
-If you open up that "javascript-logging-lab..." folder, you'll see a list of files (along with a test/ directory). Click `index.js`, and it will open in the editor. 
+If you open up that "javascript-logging-lab..." folder, you'll see a list of files (along with a test/ directory). Click `index.js`, and it will open in the editor.
 
 In `index.js`, you should see, well, nothing. We'll fix that soon.
 
@@ -139,6 +139,17 @@ We'll try to rewrite these error messages when possible to be more descriptive a
 ## Your turn
 
 Now it's your turn — can you follow a flow similar to the one we followed together above to get the remaining to tests to pass?
+
+Imagine that you're building the user interface for a fancy ATM machine.
+Because the developers are hip with the latest trends, they're using
+JavaScript for the user-facing parts.
+
+We need a way to send messages to the user: some messages are just updates,
+some are warnings (the user should not continue doing what they just did),
+and some are errors (something broke, and we need to recover).
+
+Your job is to identify a way of sending each kind of message. Hint: in
+JavaScript, you'll probably find ways of telling users things with `console`.
 
 When all of your tests pass, be sure to run `learn submit` to move on to the next lesson.
 
