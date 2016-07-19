@@ -118,7 +118,7 @@ In `index.js`, add a call to `console.error()` — you can call it with anything
 console.error("HALP!")
 ```
 
-Because it seems sufficiently dire.
+Because it seems sufficiently dire. Remember to save your file. 
 
 Anyway, let's run the tests again. In the Learn IDE's terminal, run
 
@@ -152,6 +152,8 @@ and some are errors (something broke, and we need to recover).
 
 Your job is to identify a way of sending each kind of message. Hint: in
 JavaScript, you'll probably find ways of telling users things with `console`.
+
+And again, remember to save your files before you re-run your tests. 
 
 When all of your tests pass, be sure to run `learn submit` to move on to the next lesson.
 
