@@ -64,7 +64,9 @@ const jsdom = require('mocha-jsdom')
 const path = require('path')
 ```
 
-This might be a bit bewildering, but all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
+This might be a bit bewildering, but at this point, we don't need to be able to write any of this code, or even understand every line perfectly.  All we need is to understand enough so that we can get a sense of what the test is asking us to accomplish, so that we can make the test pass.  Let's go through it.
+
+In these first lines, all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
 
 A little farther down the page, you'll see
 
