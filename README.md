@@ -12,11 +12,11 @@ JavaScript Logging Lab
 
 Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
-### Why test?
+### Tests...
 
-When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+The first new thing you'll notice is tests.  When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
 
-In programming, tests pick up on the discipline's computer science background. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
+In programming, tests place the scientific method into computer science. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
 
 On Learn, we use tests as teaching tools. Just like in a normal coding environment, we use tests to describe the program's behavior. Unlike in a normal coding environment, you, not we, are in charge of getting the tests to pass — that is, making the app behave like we expect it to.
 
