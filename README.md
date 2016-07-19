@@ -12,11 +12,11 @@ JavaScript Logging Lab
 
 Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
-### Why test?
+### Tests...
 
-When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
+The first new thing you'll notice is tests.  When we want to run an experiment, we need to develop a hypothesis and we need to test it. So if we want to experiment with whether adding salt to ice water makes it hotter or colder, we need to design an experiment that controls for all of the other variables: we need to _isolate_ our experiment from parts of its environment that aren't relevant to what we hope to test.
 
-In programming, tests pick up on the discipline's computer science background. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
+In programming, tests place the scientific method into computer science. We run tests to verify that our programs behave the way we think they do. Tests help us identify bugs, and they give us a sense of the health of our applications.
 
 On Learn, we use tests as teaching tools. Just like in a normal coding environment, we use tests to describe the program's behavior. Unlike in a normal coding environment, you, not we, are in charge of getting the tests to pass — that is, making the app behave like we expect it to.
 
@@ -64,7 +64,9 @@ const jsdom = require('mocha-jsdom')
 const path = require('path')
 ```
 
-This might be a bit bewildering, but all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
+This might be a bit bewildering, but at this point, we don't need to be able to write any of this code, or even understand every line perfectly.  All we need is to understand enough so that we can get a sense of what the test is asking us to accomplish, so that we can make the test pass.  Let's go through it.
+
+In these first lines, all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
 
 A little farther down the page, you'll see
 
@@ -116,7 +118,7 @@ In `index.js`, add a call to `console.error()` — you can call it with anything
 console.error("HALP!")
 ```
 
-Because it seems sufficiently dire.
+Because it seems sufficiently dire. Remember to save your file. 
 
 Anyway, let's run the tests again. In the Learn IDE's terminal, run
 
@@ -150,6 +152,8 @@ and some are errors (something broke, and we need to recover).
 
 Your job is to identify a way of sending each kind of message. Hint: in
 JavaScript, you'll probably find ways of telling users things with `console`.
+
+And again, remember to save your files before you re-run your tests. 
 
 When all of your tests pass, be sure to run `learn submit` to move on to the next lesson.
 
