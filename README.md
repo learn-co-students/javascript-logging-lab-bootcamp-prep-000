@@ -118,7 +118,7 @@ In `index.js`, add a call to `console.error()` — you can call it with anything
 console.error("HALP!")
 ```
 
-Because it seems sufficiently dire. Remember to save your file. 
+Because it seems sufficiently dire. Remember to save your file.
 
 Anyway, let's run the tests again. In the Learn IDE's terminal, run
 
@@ -134,13 +134,19 @@ Nice! We got the first one to pass!
 
 ## A note about spies
 
-You might often see errors like the ones above: `"Uncaught error: spy was not called"`. Spies are little bits of code that keep track of whether or not they were called. We use them to make sure that a function is called when we expect it to be called.
+You might often see errors like the ones above: `"Uncaught error: spy was not
+called"`. Spies are little bits of code that keep track of whether or not they
+were called. We use them to make sure that a function is called when we expect
+it to be called.
 
-We'll try to rewrite these error messages when possible to be more descriptive about what kinds of calls we expected; but know that sometimes, especially later on, we leave the errors intentionally ambiguous for you to work out.
+We'll try to rewrite these error messages when possible to be more descriptive
+about what kinds of calls we expected; but know that sometimes, especially later
+on, we leave the errors intentionally ambiguous for you to work out.
 
 ## Your turn
 
-Now it's your turn — can you follow a flow similar to the one we followed together above to get the remaining to tests to pass?
+Now it's your turn — can you follow a flow similar to the one we followed
+together above to get the remaining to tests to pass?
 
 Imagine that you're building the user interface for a fancy ATM machine.
 Because the developers are hip with the latest trends, they're using
@@ -153,9 +159,33 @@ and some are errors (something broke, and we need to recover).
 Your job is to identify a way of sending each kind of message. Hint: in
 JavaScript, you'll probably find ways of telling users things with `console`.
 
-And again, remember to save your files before you re-run your tests. 
+And again, remember to save your files before you re-run your tests.
 
-When all of your tests pass, be sure to run `learn submit` to move on to the next lesson.
+When all of your tests pass, be sure to run `learn submit` to move on to the
+next lesson.
+
+## Feeling stuck?
+
+In the above, when we ran our tests and saw the message "index calls
+console.error()", we wrote,
+
+```javascript
+console.error("HALP!")
+```
+
+Now when we run the tests again and see "index calls console.log()", we should
+look at what is the same and what is different between this message and the
+previous one. It looks like they're basically the same except for one tells
+us to call `console.error()` and the other tells us to call `console.log()`.
+So if we got back to `index.js` and write something like,
+
+```javascript
+console.log("I would be a logger.") // get it?
+```
+
+we're now calling `console.log()` with a different string. Similarly, when we
+see the message "index calls console.warn()", we know that we can go back to our
+code and write something with `console.warn()`. You've got this!
 
 ## Resources
 
