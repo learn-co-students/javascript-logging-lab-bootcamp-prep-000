@@ -115,7 +115,7 @@ Let's take the first one. The test description says, "index calls console.error(
 In `index.js`, add a call to `console.error()` — you can call it with anything you like (as long as the syntax is valid). We're going to go with
 
 ``` javascript
-console.error("HALP!")
+l
 ```
 
 Because it seems sufficiently dire. Remember to save your file.
