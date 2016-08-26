@@ -1,3 +1,3 @@
 console.error("What's up Flatiron School?");
+console.log("I would be a logger.");
 console.warn("ROBBERY ALERT!");
-console.log("OH CRAP A FREE ATM")
