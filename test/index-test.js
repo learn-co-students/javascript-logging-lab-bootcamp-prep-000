@@ -4,6 +4,7 @@ const jsdom = require('jsdom')
 const path = require('path')
 
 
+
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -11,6 +12,7 @@ describe('index', () => {
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
+  console.error("Help meh!---")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -23,6 +25,8 @@ describe('index', () => {
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
+console.log("this is the second test")
+
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -34,6 +38,8 @@ describe('index', () => {
 
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
+
+    console.warn("Danger Will Robinson!")
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
