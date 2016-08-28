@@ -1,3 +1,7 @@
+
+
+
+
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -19,6 +23,7 @@ describe('index', () => {
       done()
     })
   })
+
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
