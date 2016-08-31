@@ -43,4 +43,5 @@ describe('index', () => {
       done()
     })
   })
+  console.error("HALP!")
 })
