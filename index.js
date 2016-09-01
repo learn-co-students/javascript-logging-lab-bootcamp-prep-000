@@ -1,3 +1,3 @@
-console.error("YELP!!!")
-console.log("HULU!!")
-console.warn("ZULU!!")
+console.error("OUT OF SERVICE")
+console.log("PLEASE COLLECT CASH")
+console.warn("INVALID PIN")
