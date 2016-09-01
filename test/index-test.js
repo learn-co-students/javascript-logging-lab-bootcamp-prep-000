@@ -3,7 +3,6 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -18,6 +17,8 @@ describe('index', () => {
       console.error.restore()
       done()
     })
+    console.error("Halp!");
+
   })
 
   it('calls console.log()', done => {
@@ -30,6 +31,7 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.log("broken");
   })
 
   it('calls console.warn()', done => {
@@ -42,5 +44,6 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+    console.warn("warning")
   })
 })
