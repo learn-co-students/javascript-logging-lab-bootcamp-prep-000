@@ -1,3 +1,5 @@
+//these lines are referencing different libraries
+//that help us run our tests
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
