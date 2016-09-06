@@ -16,8 +16,10 @@ describe('index', () => {
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.error to have been called')
       console.error.restore()
+      
       done()
     })
+
   })
 
   it('calls console.log()', done => {
