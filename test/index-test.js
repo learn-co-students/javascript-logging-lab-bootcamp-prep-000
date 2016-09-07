@@ -34,7 +34,7 @@ console.log("only $20 left")
 
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
-
+console.warn("wrong button")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
