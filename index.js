@@ -1,3 +1,3 @@
-console.error("Bad idea!")
-console.log("STOP")
-console.warn("Don't do that")
+console.error("Try again")
+console.log("Again")
+console.warn("Maybe one more time?")
