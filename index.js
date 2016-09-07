@@ -1,3 +1,3 @@
 console.error("HELP!")
 console.log("STOP")
-console.warn("Try something else")
+console.warn("Don't do that")
