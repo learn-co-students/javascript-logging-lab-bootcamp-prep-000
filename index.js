@@ -1,2 +1,3 @@
 console.error("HALP!")
-console.log("Somehthing about an ATM")
+console.log("Something about an ATM")
+console.warn("")
