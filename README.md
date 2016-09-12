@@ -53,7 +53,7 @@ If you open up that "javascript-logging-lab..." folder, you'll see a list of fil
 
 In `index.js`, you should see, well, nothing. We'll fix that soon.
 
-Now upon up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
@@ -190,3 +190,5 @@ code and write something with `console.warn()`. You've got this!
 ## Resources
 
 - [npm](https://npmjs.org)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-logging-lab'>JavaScript Logging Lab</a> on Learn.co and start learning to code for free.</p>
