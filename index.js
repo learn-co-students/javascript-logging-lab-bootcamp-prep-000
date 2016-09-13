@@ -1,3 +1,3 @@
-console.error("que vergas es esto")
-console.log("a ver que haces perrita")
-console.warn("fierro parienteeee");
+console.error("HALP!")
+console.log("I would be a blogger")
+console.warn("wtf!");
