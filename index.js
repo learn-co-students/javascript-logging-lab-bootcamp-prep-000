@@ -1,2 +1,3 @@
 console.error("You don't hibby-dibby-do")
-console.log("Yay!")
+console.log('do')
+console.warn('do it')
