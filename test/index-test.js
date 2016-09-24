@@ -1,10 +1,10 @@
-const expect = require('expect')
+const expect = require('expect') //referencing different libraries to help run tests//
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
 
-describe('index', () => {
+describe('index', () => { //functions of the test// 
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
