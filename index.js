@@ -1,1 +1,3 @@
-console.warn("I want to be a developer!")
+console.log()
+console.error()
+console.warn()
