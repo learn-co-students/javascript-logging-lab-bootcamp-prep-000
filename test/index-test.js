@@ -3,12 +3,11 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
-  it('calls console.error()', done => {
+  it('console.error("Please help!")', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -20,7 +19,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.log()', done => {
+  it('console.log("Ack, I think I screwed this up.")', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     jsdom.env(html, [src], {
@@ -32,7 +31,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.warn()', done => {
+  it('console.warn("Be careful!")', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
     jsdom.env(html, [src], {
