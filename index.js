@@ -1,1 +1,3 @@
-console.error("HALP!")
+console.error("help")
+console.log("annoying")
+console.warn("warning")
