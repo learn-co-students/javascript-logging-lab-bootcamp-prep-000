@@ -1,1 +1,3 @@
-`console.error(HALP)`
+`console.error("HALP")`
+`console.log("log")`
+`console.warn("warn")`
