@@ -3,11 +3,12 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
+console.warn("I would be a logger")
 
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
-
+comsole.error("HALP!")
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
