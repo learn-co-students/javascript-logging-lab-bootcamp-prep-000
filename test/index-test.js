@@ -1,13 +1,15 @@
+//referencing different libraries that help us run test
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
+//a function provided by our test runner
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
+//actual test being conducted
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
@@ -19,6 +21,8 @@ describe('index', () => {
       done()
     })
   })
+
+
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -44,3 +48,5 @@ describe('index', () => {
     })
   })
 })
+console.warn("Back up");
+console.error("HALP");
