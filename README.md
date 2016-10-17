@@ -1,4 +1,4 @@
-JavaScript Logging Lab
+`JavaScript Logging Lab
 ---
 
 ## Objectives
