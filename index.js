@@ -1,1 +1,2 @@
-console.error("nina")
+console.error("nina");
+console.log("fall");
