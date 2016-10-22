@@ -1,3 +1,3 @@
-console.error("HALP!"")
-console.log("HEY!"")
-console.warn("YO!"")
+console.warn("hello")
+console.log("log")
+console.error("test")
