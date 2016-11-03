@@ -32,7 +32,7 @@ describe(console.index, () => {
     })
   })
 
-  it(console.warn("You might want to stop what you are doing."), done => {
+  it(console.warn("You might want to stop what you are doin'."), done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
     jsdom.env(html, [src], {
