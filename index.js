@@ -1,3 +1,3 @@
-console.error("help");
-console.log("help");
-console.warn("yo");
+console.error("this is an error ");
+console.log("hello world ");
+console.warn('Watch out! ');
