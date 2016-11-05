@@ -1,0 +1,5 @@
+console.error("HALP!")
+console.error( "HALP!" )
+console.error("mike")
+console.log("lenny")
+console.warn("tilly")
