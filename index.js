@@ -1,0 +1,10 @@
+console.error("HALP!")
+console.log("You should log your journals before moving on!")
+COnsole.warn("Before you move on, save your work!")
+console.warn("Before you move on, save your work!")
+console.warn("Before you move on save your work.")
+console.warn('you may be wrong')
+console.warn('warning!')
+console.warn('hey')
+console.warn(console.warn);
+console.warn('console.warn')
