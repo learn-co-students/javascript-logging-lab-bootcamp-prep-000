@@ -1,0 +1,8 @@
+console.error(call)
+console.error(HALP)
+console.log(logging)
+console.log("I would be a logger.")
+console.log(logger)
+console.log(HALP)
+console.log(call)
+console.log(logger)
