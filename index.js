@@ -1,3 +1,3 @@
 console.error("HELP!");
 console.log("testing");
-console.warn("Just a warning Ya'll!");
+console.warn("Just a warning");
