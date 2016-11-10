@@ -1,2 +1,3 @@
-console.error(HALP!")
-console.log("I am great at this.")
+console.error("HALP!")
+console.log("I would be a logger.")
+console.warn("that really happened.")
