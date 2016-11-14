@@ -41,6 +41,10 @@ describe('index', () => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
       done()
+      console.error("HALP!")
+    })
     })
   })
+})
+
 })
