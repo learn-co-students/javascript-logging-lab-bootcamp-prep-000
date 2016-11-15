@@ -4,7 +4,7 @@ const jsdom = require('jsdom')
 const path = require('path')
 
 
-describe('index', () => {
+describe('index.js', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
@@ -20,7 +20,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.log()', done => {
+  it('calls console.log("loves!")', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     jsdom.env(html, [src], {
