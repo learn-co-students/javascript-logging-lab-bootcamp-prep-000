@@ -45,6 +45,6 @@ describe('index', () => {
   })
 })
 
-console.error("Help!");
-console.warn("Warning!");
-console.log("Be careful!");
+console.warn('warn');
+console.log('log');
+console.error('error');
