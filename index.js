@@ -1,4 +1,3 @@
-console.error("HALP")
-console.log('log');
-console.warn('warn');
-learn test
+console.error("HALP!");
+console.log("Hello!");
+console.warn("Warning!");
