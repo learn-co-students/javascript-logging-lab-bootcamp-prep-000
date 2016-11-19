@@ -132,6 +132,32 @@ We should now see:
 
 Nice! We got the first one to pass!
 
+```javascript
+console.log("Errors detected")
+```
+
+``` javascript
+learn test
+```
+
+![two passing](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_logging_lab_one_passing.png)
+
+Nice! We got the second one to pass!
+
+
+
+```javascript
+console.warn("Errors to solve")
+```
+
+``` javascript
+learn test
+```
+
+![three passing](https://curriculum-content.s3.amazonaws.com/skills-based-js/console_logging_lab_one_passing.png)
+
+Nice! We got the third one to pass!
+
 ## A note about spies
 
 You might often see errors like the ones above: `"Uncaught error: spy was not
@@ -171,6 +197,15 @@ console.error()", we wrote,
 
 ```javascript
 console.error("HALP!")
+```
+
+```javascript
+console.log("Errors detected")
+```
+
+
+```javascript
+console.warn("Errors to solve")
 ```
 
 Now when we run the tests again and see "index calls console.log()", we should
