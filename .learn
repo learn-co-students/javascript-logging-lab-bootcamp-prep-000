@@ -1,6 +1,13 @@
-tags:
-  - javascript
-languages:
-  - javascript
-resources:
-  - 1
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+
+[*{.java,.py}]
+indent_size = 4
+
+[*.{js,json,rb}]
+charset = utf-8
+indent_size = 2
