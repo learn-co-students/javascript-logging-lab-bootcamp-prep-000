@@ -3,7 +3,9 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
+console.error("HEsLP!")
+console.warn("Dont you DARE")
+console.log("Update avaialbel")
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')

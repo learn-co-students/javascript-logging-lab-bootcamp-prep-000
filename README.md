@@ -1,7 +1,7 @@
 JavaScript Logging Lab
 ---
 
-## Objectives
+## Objectives A
 
 1. Practice using `console.log()`
 2. Practice using `console.error()`
