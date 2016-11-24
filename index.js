@@ -1,6 +1,4 @@
-console.console.error("HALP!");
-console.console.log("I am trying this");
-console.console.log("try anything");
-console.console.warn("who knows");
-console.console.log('call again');
-console.console.warn('try again');
+
+console.error("now i get it");
+console.log("I think this will work");
+console.warn("whoopeee");
