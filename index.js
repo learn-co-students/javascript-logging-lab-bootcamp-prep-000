@@ -1,3 +1,3 @@
-console.warn("I am happy")
-console.log("I am freeman.")
-console.error("HALP!")
+console.log("I am a Guru")
+console.warn("see me coming")
+console.error("I am Freeman")
