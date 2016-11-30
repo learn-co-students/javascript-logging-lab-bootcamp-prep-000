@@ -1,3 +1,4 @@
+console.error("HALP!")
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -21,7 +22,7 @@ describe('index', () => {
   })
 
   it('calls console.log()', done => {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+    const spy = expect.spyOn(console, 'log')
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
