@@ -1,4 +1,4 @@
 javascript
 console.error("oh noooo!")
-console.log("logging things.")
+console.log("log.")
 console.warn ("Look out!")
