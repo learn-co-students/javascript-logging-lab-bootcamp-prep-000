@@ -3,7 +3,6 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -19,6 +18,8 @@ describe('index', () => {
       done()
     })
   })
+
+  
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -43,4 +44,8 @@ describe('index', () => {
       done()
     })
   })
+
+  console.error("Que Chicharron!")
 })
+
+console.error("Que Chicharron!")
