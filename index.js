@@ -1,5 +1,3 @@
-index calls console.error("no no")
+console.error("no no")
 console.log('logging something')
 console.warn('are you sure about that')
-index calls console.log('logging something')
-index calls console.warn('are you sure about that')
