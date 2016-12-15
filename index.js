@@ -1,3 +1,3 @@
 console.error("HALP!")
 console.log("HEY HEY HEY")
-console.warn("OH SHIT")
+console.warn("WHY CAN'T I SIGN INTO GITHUB?")
