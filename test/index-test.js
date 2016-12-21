@@ -18,6 +18,7 @@ describe('index', () => {
       console.error.restore()
       done()
     })
+    console.error("HALP!")
   })
 
   it('calls console.log()', done => {
@@ -30,6 +31,7 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.log("Please verify pin number!")
   })
 
   it('calls console.warn()', done => {
@@ -42,5 +44,6 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+    console.warn("Multiple incorrect entries will lock device!")
   })
 })
