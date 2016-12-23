@@ -1,0 +1,6 @@
+console.error("HALP!")
+console.error("FIX ME!")
+console.error("HALP!")
+console.log("FIX ME!")
+console.warn("FIX MEE!")
+console.warn("FIX ME!")
