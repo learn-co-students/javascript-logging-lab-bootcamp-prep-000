@@ -20,7 +20,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.log()', done => {
+  it('calls console.log("I would be a logger")', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     jsdom.env(html, [src], {
