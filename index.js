@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("Hello")
-console.warn("My+100+TV")
+console.error("I am an error")
+console.log("I am a log")
+console.warn("I'm a warning")
