@@ -1,3 +1,3 @@
-console.error("HALP!")
-console.log("Hello!")
-console.warn("Lookout!")
+console.error("HALP!");
+console.log("CAROLINE!");
+console.warn("DANGER!");
