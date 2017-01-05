@@ -1,3 +1,3 @@
-console.error("FUCKETY");
-console.log("aeyaey");
-console.warn("whodunit");
+console.error("this is the error");
+console.log("log dat");
+console.warn("achtung");
