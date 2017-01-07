@@ -1,3 +1,4 @@
+
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
@@ -10,6 +11,7 @@ describe('index', () => {
 
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
+    console.error("Cheese and Crackers!")
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
@@ -22,7 +24,7 @@ describe('index', () => {
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
-
+    console.log("Yo B)")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -35,6 +37,7 @@ describe('index', () => {
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
+    console.warn("hey! stop!")
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
