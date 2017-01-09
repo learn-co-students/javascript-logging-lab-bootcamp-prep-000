@@ -1,1 +1,1 @@
-console.log("I am warning you")
+console.warn("I am warning you")
