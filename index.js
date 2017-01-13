@@ -1,2 +1,2 @@
-conole.error("wrong code")
-console.error("wrong code")
+console.error("whatever!")
+console.warn("Great")
