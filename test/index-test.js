@@ -45,5 +45,4 @@ describe('index', () => {
   })
 })
 console.error("Halp");
-console.log("Your pin was accepted!");
-console.warn("Your card is expired!");
+console.log("I would be a logger.")
