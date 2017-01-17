@@ -1,3 +1,3 @@
-console.error("Halp!")
-console.log("Hello")
-console.warn("Stop!")
+console.error("this is broken")
+console.log("Hey")
+console.warn("Stopppp! Go Back!")
