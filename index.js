@@ -1,4 +1,4 @@
 javascript
 console.warn ("WATCHOUT!!")
-console.log ("i am literally logging!")
+console.log ('10')
 console.error ("HELP!")
