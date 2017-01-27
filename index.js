@@ -1,0 +1,6 @@
+console.error("HALP!")
+console.log("I would be a logger.")
+console.warn("Hello World!")
+console.warn("val1,val2")
+console.warn()
+console.warn("Hello World!")
