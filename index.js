@@ -1,3 +1,3 @@
-console.error("HELP!")
-console.log("My log.")
-console.warn("Heed the warning.")
+console.error("HALP!")
+console.log('I would be a logger.')
+console.warn('Danger, Will Robinson!')
