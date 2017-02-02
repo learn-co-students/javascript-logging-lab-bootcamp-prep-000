@@ -1,5 +1,5 @@
 JavaScript Logging Lab
----
+console.log("I would be a logger.")
 
 ## Objectives
 
