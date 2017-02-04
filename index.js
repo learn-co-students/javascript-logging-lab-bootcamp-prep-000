@@ -1,2 +1,2 @@
-console.error("Halp!")
-console.warn("This is not working out!")
+console.console.error("Halp!");
+console.log("I would be a logger.") // get it?
