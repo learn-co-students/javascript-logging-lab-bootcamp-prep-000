@@ -3,6 +3,7 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
+console.error("PAW PATROL IS ON A ROLL!!")
 
 describe('index', () => {
   const html = '<div></div>'
