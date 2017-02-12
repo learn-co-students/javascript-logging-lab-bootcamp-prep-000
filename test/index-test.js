@@ -4,6 +4,7 @@ const jsdom = require('jsdom')
 const path = require('path')
 
 
+
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -30,6 +31,8 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.error("HALP!");
+
   })
 
   it('calls console.warn()', done => {
@@ -42,5 +45,7 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+    console.log('Logging In');
   })
+  console.warn('Warning time');
 })
