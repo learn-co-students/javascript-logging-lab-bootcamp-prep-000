@@ -32,7 +32,7 @@ describe('index', () => {
     })
   })
 
-  it('calls console.warn("I will be rich.")', done => {
+  it('calls console.warn("I will be super rich.")', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
 
     jsdom.env(html, [src], {
