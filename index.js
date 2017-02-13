@@ -1,3 +1,3 @@
 console.error("Help!")
-console.log("Starting to get the hang of this")
-console.warn("I hope to keep improving")
+console.log("I'm learning how to code")
+console.warn("Good Luck")
