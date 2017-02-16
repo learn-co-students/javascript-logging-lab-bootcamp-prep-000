@@ -44,3 +44,7 @@ describe('index', () => {
     })
   })
 })
+
+console.error("This is a error");
+console.log("Tihs is a log");
+console.warn("This is to warn");
