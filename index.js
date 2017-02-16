@@ -1,0 +1,3 @@
+console.error("SYSTEM....OVERFUCKULATED.....")
+console.log("RECONFIGURING THE FUCKULATOR")
+console.warn("WARNING! FUCKULATE AT YOUR OWN RISK!")
