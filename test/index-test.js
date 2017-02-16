@@ -6,7 +6,7 @@ const path = require('path')
 
 describe('index', () => {
   const html = '<div></div>'
-  const src = path.resolve(__dirname, '..', 'index.js')
+  const src = path.resolve(__dirname, '..', 'index-will.js')
 
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
