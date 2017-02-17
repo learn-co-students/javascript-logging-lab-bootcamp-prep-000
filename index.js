@@ -1,5 +1,3 @@
-console.warn("wrong pin!")
-console.error("wrong password!")
-console.log("log userlogin")
-console.warn("too much")
-console.error(" keep back!")
+console.warn("keep back!")
+console.error("goodie")
+console.log("username")
