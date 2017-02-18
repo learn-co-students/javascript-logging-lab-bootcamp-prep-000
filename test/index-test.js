@@ -44,3 +44,5 @@ describe('index', () => {
     })
   })
 })
+console.error("YIKES!")
+console.error("HALP!")
