@@ -9,6 +9,7 @@ describe('index', () => {
   const src = path.resolve(__dirname, '..', 'index.js')
 
   it('calls console.error()', done => {
+    console.error("HI")
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
     jsdom.env(html, [src], {
