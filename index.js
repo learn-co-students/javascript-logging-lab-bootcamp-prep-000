@@ -6,5 +6,7 @@ console.console.error("HALP!");
 
 console.log("I would be a logger.")// get it?
 
-console.console.log("I would be a logger.");
-console.console.log("I would be a logger.");
+console.log("I would be a logger.");
+console.log("I would be a logger.");
+
+console.warn("I would be a logger.");
