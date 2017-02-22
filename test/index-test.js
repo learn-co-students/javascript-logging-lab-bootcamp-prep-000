@@ -44,3 +44,9 @@ describe('index', () => {
     })
   })
 })
+console.error("HALP!")
+console.warn ('I'm not sure that was such a good idea!')
+console.error ('opperate with caution')
+console.error("Please operate with caution")
+console.log (" I don't know what i'\'m' doing!")""
+console.log("I wold be a logger,")"
