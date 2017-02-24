@@ -43,4 +43,3 @@ describe('index', () => {
       done()
     })
   })
-})
