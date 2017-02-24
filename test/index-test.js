@@ -43,3 +43,4 @@ describe('index', () => {
       done()
     })
   })
+console.error("halp!")
