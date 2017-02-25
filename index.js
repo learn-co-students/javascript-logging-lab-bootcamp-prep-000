@@ -1,3 +1,3 @@
-console.error("Halp!")
-console.warn("Help!")
-console.log("What!")
+console.error("poop")
+console.log("log this!")
+console.warn("Will robinson")
