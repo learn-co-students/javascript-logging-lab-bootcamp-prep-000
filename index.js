@@ -1,3 +1,3 @@
-console_error("HALLLLP!")
-console_log("LOG")
-console_warn("WATCHOUT!")
+console.error("HALP!")
+console.warn("WARN")
+console.log("LOG")
