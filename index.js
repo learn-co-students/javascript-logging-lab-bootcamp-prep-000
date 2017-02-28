@@ -5,6 +5,7 @@ jsdom({
 console.console.error("HALP!");
 
 console.log("I would be a logger.")// get it?
+console.warn()
 
 
 console.log("I would be a logger.");
