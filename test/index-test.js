@@ -18,6 +18,7 @@ describe('index', () => {
       console.error.restore()
       done()
     })
+    console.error('help us!')
   })
 
   it('calls console.log()', done => {
@@ -30,6 +31,7 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.log('getting closer')
   })
 
   it('calls console.warn()', done => {
@@ -42,5 +44,7 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+      console.warn('finally made it')
   })
+
 })
