@@ -1,0 +1,5 @@
+console.error("HALP!")
+console.warn("the user should not continue doing what they just did")
+console.log("Something broke,We need to recover it!!!")
+console.warn("this program is too good!")
+console.updates("this is an update:test mgs")
