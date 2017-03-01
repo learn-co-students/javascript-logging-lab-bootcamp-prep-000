@@ -1,0 +1,7 @@
+console.error("HALP!")
+console.log("logging!")
+console.warn("happy")
+console.warn("HALP!")
+console.error("HALP!")
+console.warn("learn")
+console.log('halp')
