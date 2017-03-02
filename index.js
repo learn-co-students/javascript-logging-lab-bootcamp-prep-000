@@ -1,3 +1,3 @@
-console.error("My first lab")
-console.log("Second Input")
-console.war("Third Input")
+console.error("word1")
+console.log("word2")
+console.warn("word")
