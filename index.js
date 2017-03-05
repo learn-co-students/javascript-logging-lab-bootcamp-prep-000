@@ -1,3 +1,3 @@
 console.error("Halp!")
-console.log("I ain\'t thinkin bout you")
-console.warn("I ain\'t sorry")
+console.log("Please Halp!")
+console.warn("content too boring")
