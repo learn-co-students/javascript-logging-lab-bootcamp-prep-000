@@ -1,1 +1,1 @@
-console.log("I'll be a blogger")
+console.warn("Don't attempt to do that again")
