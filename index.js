@@ -1,1 +1,2 @@
-console.warn("Don't attempt to do that again")
+var greetings = "Hello";
+var specialGuest = "Amadou";
