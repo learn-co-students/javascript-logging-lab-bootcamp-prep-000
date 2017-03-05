@@ -1,2 +1,1 @@
-var greetings = "Hello";
-var specialGuest = "Amadou";
+var greeting = "Hello";
