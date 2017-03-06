@@ -1,3 +1,3 @@
-console.error("Please check your code again")
-console.warn("hello")
-console.log("yes")
+console.error("Your password is invalid")
+console.warn("Please enter a valid password")
+console.log("Password accepted")
