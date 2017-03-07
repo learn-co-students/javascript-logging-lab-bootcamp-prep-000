@@ -1,0 +1,5 @@
+console.error("HALP!")
+console.error("INSERTCOINS")
+console.log("Name")
+console.warn("notenoughquarters")
+console.error("wrongchange")
