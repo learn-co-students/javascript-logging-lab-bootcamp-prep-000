@@ -1,5 +1,3 @@
-console.error("HELLLLP!")
-
-console.log("Would you like to make another transaction?")
-
-console.warn("Don't forget to take your reciept!")
+console.error("HALP!")
+console.log("I would be a logger.")
+console.warn()
