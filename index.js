@@ -1,5 +1,5 @@
-console.error("poop")
+console.error("dog")
 
-console.log("more poop")
+console.log("more dog")
 
-console.warn("most poop")
+console.warn("most dog")
