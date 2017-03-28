@@ -1,7 +1,9 @@
 
-console.log("leslie");
-console.error("ouch");
-console.warn("holo");
+console.log("mylove");
+console.warn("jesus");
+console.error("abba");
+
+
 
 
 
