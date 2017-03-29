@@ -1,3 +1,3 @@
-console.error("I don't know!");
+console.error("HALP!");
 console.log("Check1");
-console.warn("I hope this is it");
+console.warn("Attempt #1");
