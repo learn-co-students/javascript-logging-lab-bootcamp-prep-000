@@ -1,13 +1,16 @@
+//refencing different libraries
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
-
+//describe is a function provided by out test runner
+// its a container for out test
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
 
+//"it" describes a behavior that we expect the main program to implement.
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
