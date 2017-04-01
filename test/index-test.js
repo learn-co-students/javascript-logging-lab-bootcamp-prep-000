@@ -5,6 +5,7 @@ const path = require('path')
 console.error("HALP!")
 
 
+
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -46,3 +47,4 @@ describe('index', () => {
   })
 })
 console.error("HALP!")
+console.error("HAP IM CONFUSED!")
