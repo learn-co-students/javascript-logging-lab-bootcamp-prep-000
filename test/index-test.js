@@ -2,6 +2,8 @@ const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
+console.error("HALP!")
+
 
 
 describe('index', () => {
@@ -44,3 +46,5 @@ describe('index', () => {
     })
   })
 })
+console.error("HALP!")
+console.error("HAP IM CONFUSED!")
