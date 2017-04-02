@@ -1,3 +1,3 @@
-consol.error("HAELP")
-console.warn("WRONG WAAAY!")
-console.log("logging it up baby!")// get it?
+console.error("HALP")
+console.log("I would be a logger")// get it?
+console.warn("Last warning!")
