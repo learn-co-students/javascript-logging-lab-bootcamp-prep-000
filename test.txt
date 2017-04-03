@@ -1,0 +1,89 @@
+
+> java-script-logging-lab@0.1.0 test /home/brendabaguilera-64293/code/labs/javascript-logging-lab-bootcamp-prep-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
+ 0
+ 0
+ 0
+
+[4A[5C-
+[5C-
+[5C-
+[5C-
+[4A[6C_,------,
+[6C_|   /\_/\ 
+[6C^|__( - .-) 
+[6C  ""  "" 
+[4A 0
+ 1
+ 0
+
+[4A[5C-_
+[5C-_
+[5C-_
+[5C-_
+[4A[7C_,------,
+[7C_|  /\_/\ 
+[7C~|_( x .x) 
+[7C ""  "" 
+[4A 0
+ 2
+ 0
+
+[4A[5C-_-
+[5C-_-
+[5C-_-
+[5C-_-
+[4A[8C_,------,
+[8C_|   /\_/\ 
+[8C^|__( x .x) 
+[8C  ""  "" 
+[4A 0
+ 3
+ 0
+
+[4A[5C-_-_
+[5C-_-_
+[5C-_-_
+[5C-_-_
+[4A[9C_,------,
+[9C_|  /\_/\ 
+[9C~|_( x .x) 
+[9C ""  "" 
+[4A
+
+
+
+
+  0 passing (502ms)
+  3 failing
+
+  1) index calls console.error():
+     Uncaught Error: expected console.error to have been called
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toHaveBeenCalled (node_modules/expect/lib/Expectation.js:318:28)
+      at Object.jsdom.env [as done] (test/index-test.js:17:19)
+      at process.nextTick (node_modules/jsdom/lib/jsdom.js:325:18)
+      at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  2) index calls console.log():
+     Uncaught Error: expected console.log to have been called
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toHaveBeenCalled (node_modules/expect/lib/Expectation.js:318:28)
+      at Object.jsdom.env [as done] (test/index-test.js:29:19)
+      at process.nextTick (node_modules/jsdom/lib/jsdom.js:325:18)
+      at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  3) index calls console.warn():
+     Uncaught Error: expected console.warn to have been called
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toHaveBeenCalled (node_modules/expect/lib/Expectation.js:318:28)
+      at Object.jsdom.env [as done] (test/index-test.js:41:19)
+      at process.nextTick (node_modules/jsdom/lib/jsdom.js:325:18)
+      at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
+
+
+
