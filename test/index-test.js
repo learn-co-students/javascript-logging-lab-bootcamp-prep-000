@@ -1,9 +1,8 @@
+console.error("HALP!")
 const expect = require('expect')
 const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
-
-
 describe('index', () => {
   const html = '<div></div>'
   const src = path.resolve(__dirname, '..', 'index.js')
@@ -40,6 +39,7 @@ describe('index', () => {
     }, (err, window) => {
       expect(spy).toHaveBeenCalled('expected console.warn to have been called')
       console.warn.restore()
+      console.error("HALP")
       done()
     })
   })
