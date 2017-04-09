@@ -3,6 +3,7 @@ const fs = require('fs')
 const jsdom = require('jsdom')
 const path = require('path')
 
+console.error("HALP!")
 
 describe('index', () => {
   const html = '<div></div>'
