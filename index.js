@@ -1,1 +1,2 @@
-console.error
+console.error("HALP!")
+console.warn()
