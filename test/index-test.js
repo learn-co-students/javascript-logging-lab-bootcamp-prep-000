@@ -25,7 +25,7 @@ console.error("Help!")
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
-console.log("i'm a fucking piece of shit logger")
+console.log("i'm a logger")
 
 
     jsdom.env(html, [src], {
