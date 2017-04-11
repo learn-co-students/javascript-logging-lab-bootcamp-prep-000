@@ -11,6 +11,8 @@ describe('index', () => {
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
+console.error("Help!")
+
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -23,6 +25,9 @@ describe('index', () => {
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
+console.log("i'm a fucking piece of shit logger")
+
+
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
@@ -34,6 +39,9 @@ describe('index', () => {
 
   it('calls console.warn()', done => {
     const spy = expect.spyOn(console, 'warn').andCallThrough()
+
+console.warn("Stop doing what you're doing tysm")
+
 
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
