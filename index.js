@@ -1,0 +1,3 @@
+console.error("PlS HALP!");
+console.log("Logging...");
+console.warn("I'm warning you...");
