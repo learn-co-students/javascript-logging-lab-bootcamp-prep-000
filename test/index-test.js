@@ -11,6 +11,10 @@ describe('index', () => {
   it('calls console.error()', done => {
     const spy = expect.spyOn(console, 'error').andCallThrough()
 
+    console.warn("HALP")
+    console.error("abcEDSS")
+    console.log("aFSDbc")
+
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
