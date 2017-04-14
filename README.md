@@ -20,7 +20,7 @@ In programming, tests place the scientific method into computer science. We run 
 
 On Learn, we use tests as teaching tools. Just like in a normal coding environment, we use tests to describe the program's behavior. Unlike in a normal coding environment, you, not we, are in charge of getting the tests to pass — that is, making the app behave like we expect it to.
 
-### Structure
+### Structu
 
 The structure of this lab — where its files and folders are located — looks roughly like the following:
 
