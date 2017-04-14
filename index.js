@@ -1,3 +1,3 @@
-console.error("Forever")
-console.warn("Boys")
-console.log("Summer")
+console.error("Forever");
+console.warn("Fall");
+console.log("Summer");
