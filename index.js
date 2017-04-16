@@ -1,2 +1,1 @@
-console.error('HALP ME!')
-//get it
+console.error('HALP!')
