@@ -1,3 +1,3 @@
-console.error("bibbidy")
-console.log("biggidy")
-console.warn("bobbidy")
+console.error("HALP!")
+console.log("I would be a logger.")
+console.warn("Watch out")
