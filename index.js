@@ -1,3 +1,3 @@
 console.error("HALP!")
-console.log("I would be a logger.")
+console.log("I would be a blogger!")
 console.warn("Nothing will work unless you save.")
